@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel = "stylesheet" href = "style.css" >
+  <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+  <a href = "#" id = "main">
+    <div class = "popup" id = "rules">
+      <div id = "till">
+        <h1>RULES</h1>
+        <span class = "close">&times;</span>
+      </div>
+      <div>
+        <img src = "images/image-rules.svg" />
+      </div>
+    </div>
+  </a>
+  <header>
+    <div id = "container">
+      <div class = "containerh">
+        <div id = "title">
+          <img src = "images/logo.svg" />
+        </div>
+        <div id = "score">
+          <p>SCORE</p>
+          <h1 id = "scoreDisp" style = "text-align: center;">0</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div id = "page">
+      <div id = "mainPage">
+        <div class = "icons" id = "paper">
+          <img src = "images/icon-paper.svg" />
+        </div>
+        <div class = "icons" id = "rock">
+          <img src = "images/icon-rock.svg" />
+        </div>
+        <div class = "icons" id = "scissors">
+          <img src = "images/icon-scissors.svg" />
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <button id = "open-button">Rules</button>
+  </footer>
+  <script src = "script.js"></script>
+</body>
+</html>
